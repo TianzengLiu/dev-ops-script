@@ -22,7 +22,7 @@ sudo yum -y install nodejs
 
 echo "downloading tomcat tar.gz"
 sudo cd /tmp
-sudo wget http://ftp.wayne.edu/apache/tomcat/tomcat-8/v8.5.35/bin/apache-tomcat-8.5.35.tar.gz
+sudo wget https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.35/bin/apache-tomcat-8.5.35.tar.gz
 sudo tar -xzvf apache-tomcat-8.5.35.tar.gz
 echo "giving ec2-user permission for tomcat"
 sudo chmod 777 -R apache-tomcat-8.5.35
